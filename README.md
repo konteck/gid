@@ -22,6 +22,10 @@ Run as standalone server
 
     gid --server --port=8080 --template={time}{seq} --epoch=01-01-2010
 
+Request ID via CURL
+
+    curl http://127.0.0.1:8080/?template={guid1}
+
 Call from node.js code
 
     var gid = require('gid');
@@ -33,6 +37,16 @@ Call from node.js code
 Generate new ID from command line
 
     gid --get_id
+
+## Template
+
+Its possible to use any character in generated ID additional to predefined keywords:
+
+    {time}  - passed time since epoch in seconds
+    {seq}   - sequence number: will prevent same collision
+    {guid1} - generate and return a RFC4122 v1 (timestamp-based) UUID
+    {guid4} - generate and return a RFC4122 v4 UUID
+    {rand}  - generate 4 symbol random number
 
 ## License 
 

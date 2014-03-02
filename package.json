@@ -1,7 +1,7 @@
 {
     "name": "gid",
     "description": "Genuine ID Generator",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": {
         "name": "Alex Movsisyan",
         "email": "node@movsisyan.com"
