@@ -1,7 +1,7 @@
 {
     "name": "gid",
     "description": "Genuine ID Generator",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "author": {
         "name": "Alex Movsisyan",
         "email": "node@movsisyan.com"
@@ -16,6 +16,7 @@
     },
     "keywords": [
         "id",
+        "guid",
         "distributed",
         "unique",
         "cli",
@@ -24,6 +25,7 @@
     "main": "./lib/gid.js",
     "dependencies": {
         "restify": "~2.6.1",
-        "optimist": "~0.6.1"
+        "optimist": "~0.6.1",
+        "uuid": "~1.4.1"
     }
 }

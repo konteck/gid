@@ -7,9 +7,9 @@ branches:
   - master
 notifications:
   email:
-  - travis@movsisyan.com
+  - dev@movsisyan.com
 deploy:
   api_key:
-    secure: TX5dYoNMNvppNSMCSBHcUP2+SVfWsRf/dGxryQOgkXzbKu1bDTfDE/yMNBg0gAf4qpgvqa5SQVSIpFJjfSRb6KRcrfClCdY2Rtmhu5IAe20Q43pj9m9RL1gQ7PX0M+vHhGULPWEw8chIvxA5B23Q051KWhzCer7c0W68SYaNdJc=
-  email: travis@movsisyan.com
+    secure: S+c/GKUAybdiJYpo/Bi2W46B+ndyLvlx5fCzSUJhzCG+xPJlSuJsd8b7DB61vFrlFH9oKmRm+Md4RuwCQbTMM3Ku5aNF33DSpirbIbDxSUJ355LjEwgx7rxR2Hn8pgMjG72FwhZjmzAfFFKTPBc/XOE4RrtgQ0tkPl50dz3o2iM=
+  email: dev@movsisyan.com
   provider: npm
