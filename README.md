@@ -43,7 +43,7 @@ Generate new ID from command line
 Its possible to use any character in generated ID additional to predefined keywords:
 
     {time}  - passed time since epoch in seconds
-    {seq}   - sequence number: will prevent same collision
+    {seq}   - sequence number: will prevent same second ID collision
     {guid1} - generate and return a RFC4122 v1 (timestamp-based) UUID
     {guid4} - generate and return a RFC4122 v4 UUID
     {rand}  - generate 4 symbol random number

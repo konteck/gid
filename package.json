@@ -1,7 +1,7 @@
 {
     "name": "gid",
     "description": "Genuine ID Generator",
-    "version": "1.0.4",
+    "version": "1.0.6",
     "author": {
         "name": "Alex Movsisyan",
         "email": "node@movsisyan.com"
@@ -17,6 +17,7 @@
     "keywords": [
         "id",
         "guid",
+        "jsonp",
         "distributed",
         "unique",
         "cli",
