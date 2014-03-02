@@ -1,0 +1,29 @@
+{
+    "name": "GID",
+    "description": "Genuine ID Generator",
+    "version": "1.0.1",
+    "author": {
+        "name": "Alex Movsisyan",
+        "email": "node@movsisyan.com"
+    },
+    "homepage": "https://github.com/konteck/gid",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/konteck/gid.git"
+    },
+    "bin": {
+        "gid": "./bin/gid"
+    },
+    "keywords": [
+        "id",
+        "distributed",
+        "unique",
+        "cli",
+        "rest"
+    ],
+    "main": "./lib/gid.js",
+    "dependencies": {
+        "restify": "~2.6.1",
+        "optimist": "~0.6.1"
+    }
+}
